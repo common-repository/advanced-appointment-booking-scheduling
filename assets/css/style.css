@@ -1,0 +1,232 @@
+.wrap.abp-page-wrapper {
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.wrap.abp-page-wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.search-container input {
+    height: 48px;
+    border: none;
+    background: #fff;
+    padding-left: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.abp-navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+select#api-response-dropdown {
+    max-width: 210px;
+}
+
+.abp-navbar-wrapper {
+    margin: 50px 0px 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+body.toplevel_page_appointment-booking-admin {
+    background: #F7F7F9;
+}
+
+div#category-tabs button {
+    font-size: 18px;
+    border: none;
+}
+
+.card-img-wrap {
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+div#product-cards .card {
+    padding: 0px !important;
+}
+
+p.card-text {
+    text-align: left !important;
+}
+
+.abp-button-wrapper {
+    top: 0;
+    right: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    z-index: 99;
+    display: none;
+}
+.card:hover .card-img-wrap::after{
+    display: block;
+}
+.card:hover .abp-button-wrapper {
+    display: block;
+}
+
+.card-img-wrap::after {
+    transition: 0.3s ease-in-out;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+button#load-more {
+    margin: 20px auto;
+    padding: 10px 22px;
+    border-radius: 6px !important;
+}
+
+button.btn.tab-btn.active::after {
+    content: "";
+    background: #000;
+    height: 2px;
+    border-radius: 3px;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: unset;
+    bottom: -10px;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+}
+
+button.btn.tab-btn:active {
+    border: none;
+    outline: none !important;
+}
+
+button.btn.tab-btn {
+    position: relative;
+}
+
+@media(max-width:1199px) {
+    .card-img-wrap {
+        max-height: 180px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    button.btn:nth-child(7) {
+        display: none !important;
+    }
+}
+
+@media(max-width:1024px) {
+
+    button.btn:nth-child(6),
+    button.btn:nth-child(5) {
+        display: none !important;
+    }
+}
+
+@media(max-width:991px) {
+    div#category-tabs {
+        display: none !important;
+    }
+
+    .abp-navbar-wrapper {
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 0px auto;
+        max-width: 400px;
+    }
+}
+
+@media(max-width:575px) {
+    .search-container {
+        justify-content: center;
+        display: flex;
+    }
+
+    .abp-navbar-wrapper {
+        justify-content: center;
+    }
+
+    .abp-navbar-wrapper {
+        margin: 30px 0px 10px;
+    }
+}
+
+/* for loader */
+div#loader img {
+    width: 80px;
+    height: 80px;
+}
+.products-wrappre{
+    position: relative;
+}
+.loader-img-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 19rem;
+}
+#loader {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;   
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+#nav-tabContent #nav-dashboard h2 {
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+.dashboard-container .dashboard-item h3 {
+    font-size: 20px;
+}
+.dashboard-item p {
+    font-size: 18px !important;
+    margin-top: 20px;
+  }
+  .nav-link {
+    color: #000;
+  }
+  #nav-appointments p {
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+/* end */
+.notice, 
+.update-nag, 
+.updated, 
+.error, 
+.is-dismissible, 
+.update-message { 
+    display: none !important; 
+}

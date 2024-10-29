@@ -1,0 +1,209 @@
+/* Basic form container styling */
+#appointment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Headings styling */
+#appointment-form h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Form element styling */
+#appointment-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+#appointment-form input[type="text"],
+#appointment-form input[type="email"],
+#appointment-form input[type="tel"],
+#appointment-form input[type="date"],
+#appointment-form input[type="time"],
+#appointment-form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#appointment-form select {
+    width: calc(100% - 22px);
+}
+
+/* Button styling */
+#appointment-form button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#appointment-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Summary section styling */
+#appointment-summary {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+#appointment-summary p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+
+
+/* meeting list style  */
+.meeting-lists {
+    list-style-type: none;
+}
+
+.meeting-lists li {
+    margin-bottom: 15px;
+}
+
+.meeting-lists {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 50px 30px;
+    max-width: 40%;
+}
+
+.meeting-lists li {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.meeting-lists li:nth-child(even) {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+.button.button-secondary {
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.meeting-lists li span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+/* for login and register */
+
+/* General form styling */
+/* form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+} */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073aa;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005a87;
+} */
+
+p {
+    /* color: #ff0000;  Color for error messages */
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* for dashboard */
+
+/* Container for the dashboard */
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Individual dashboard items */
+.dashboard-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    width: 23%;
+    /* Adjust the width to fit four items in a row */
+    box-sizing: border-box;
+}
+
+/* Headings in the dashboard items */
+.dashboard-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+    /* Darker color for better readability */
+}
+
+/* Paragraph text in the dashboard items */
+.dashboard-item p {
+    font-size: 24px;
+    margin: 0;
+    color: #555;
+    /* Slightly lighter color for contrast */
+}
+
+/* form css  */
+.meeting-lists form {
+    border: none;
+    padding: 0px;
+}
